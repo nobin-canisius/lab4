@@ -20,7 +20,7 @@ public class SelectQuestions extends PostgresConnectionHandler {
      * @return a list of all the actors.
      */
     public List<Actor> getAllActors() {
-        return null;
+        return this.dbAdapter.getAllActors();
     }
 
     /**
@@ -29,7 +29,7 @@ public class SelectQuestions extends PostgresConnectionHandler {
      * @return A list of actor objects that share a last name.
      */
     public List<Actor> getAllActorsWithLastNameWithCode(String lastName) {
-        return null;
+        return this.dbAdapter.getAllActorsWithLastNameWithCode(lastName);
     }
 
     /**
