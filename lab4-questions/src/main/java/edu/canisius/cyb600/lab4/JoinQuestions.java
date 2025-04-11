@@ -13,6 +13,6 @@ public class JoinQuestions extends PostgresConnectionHandler {
      * @return A list of films.
      */
     public List<Film> getFilmsInCategory(Category category) {
-        return null;
+        return this.dbAdapter.getFilmsInCategory(category);
     }
 }

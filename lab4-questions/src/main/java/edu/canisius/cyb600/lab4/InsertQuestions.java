@@ -14,7 +14,7 @@ public class InsertQuestions extends PostgresConnectionHandler {
      * @return THe list of characters that were updated.
      */
     public List<Actor> insertAllActorsWithAnOddNumberLastName(List<Actor> actors) {
-        return null;
+        return this.dbAdapter.testInsertAllActorsWithAnOddNumberLastName(actors);
     }
 
 }
