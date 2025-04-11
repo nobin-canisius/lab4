@@ -160,8 +160,6 @@ public class PostgresDBAdapter extends AbstractDBAdapter {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
-
         return films;
     }
 }
